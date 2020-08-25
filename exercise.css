@@ -1,0 +1,118 @@
+
+
+/*give the body element  a background color*/
+
+body{
+  background-color:#bdc3c7;
+}
+
+/*make the h1 element */
+
+h1{
+  color: #9b59b6;
+}
+
+/*make all h2 elements orange */
+
+h2{
+  color: orange;
+}
+
+
+/* make all li elements blue (pick your own hexadecimal blue)*/
+
+li{
+  color: #0000ff;
+}
+
+/* change background on every paragraph to be yellow*/
+
+p{
+  background: yellow;
+}
+/*make all inputs have a 3px red border*/
+
+input{
+  border: 3px red solid;
+}
+
+/*give everything with classs  hello a white background*/
+
+.hello{
+  background: white
+}
+
+/*give everything with id "special" a 2px solid blue border(pick your own rgb blue)*/
+
+#special{
+  border: 2px solid rgb(00 ,50 ,255);
+
+}
+
+/*make all p that are nested inside of divs 25px font (font-size :25px)*/
+div p {
+  font-size: 25px;
+}
+
+/*make only input with type "text" have a gray background*/
+input[type="text"]{
+  background: gray;
+}
+
+/*give both p inside 3rd div a pink background*/
+
+div:nth-of-type(3) p{
+  background: pink;
+}
+
+
+/* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
+
+div:nth-of-type(3) p:nth-of-type(2){
+  border: 5px white solid;
+
+}
+/* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
+
+div:nth-of-type(3) em{
+  font-size: 20px;
+  color: white;
+}
+
+/*BONUS CHALLENGES*/
+/*You may need to research some other selectors and properties*/
+
+/*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
+input:checked {
+  margin-left: 50px;
+}
+
+
+/* Make the <label> elements all UPPERCASE without changing the HTML(definitely look this one up*/
+label{
+  text-transform: uppercase;
+}
+
+/*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
+
+#special:first-letter {
+  font-size: 100px;
+  color: green;
+} 
+
+/*Make the <h1> element's color change to blue when hovered over */
+
+h1:hover{
+  color:blue;
+}
+
+/*Make the <a> element's that have been visited gray */
+a:visited{
+  color: gray;
+}
+
+h1{
+  font-family: Bangers;
+  text text-decoration: underline;
+  text-align: center;
+}
